@@ -1,0 +1,14 @@
+server:
+  port: 9099
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/harrychan19/cloudConfigCenter
+          search-paths: respo
+          username: harrychan19
+          password: shihai775532
+      label: master
