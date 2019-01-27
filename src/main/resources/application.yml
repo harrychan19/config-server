@@ -12,3 +12,8 @@ spring:
           username: harrychan19
           password: shihai775532
       label: master
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,refresh
